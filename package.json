@@ -1,0 +1,23 @@
+{
+  "name": "door_bot",
+  "version": "1.0.0",
+  "description": "Discord bot that enhances server functionality",
+  "main": "framework/bot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node framework/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrenVs/door_bot.git"
+  },
+  "author": "DarrenVs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarrenVs/door_bot/issues"
+  },
+  "homepage": "https://github.com/DarrenVs/door_bot#readme"
+}
