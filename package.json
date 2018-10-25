@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node framework/bot.js"
+    "start": "node framework/bot.js process.env.TOKEN"
   },
   "repository": {
     "type": "git",
