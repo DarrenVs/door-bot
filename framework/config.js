@@ -1,7 +1,7 @@
 const applyProperties = require('./applyProperties.js');
 
 defaultConfig = {
-    token: process.argv[2],
+    token: process.env.TOKEN || process.argv[2],
 
     // The categories to hide from the hiderRole
     hiddenCategories: {
